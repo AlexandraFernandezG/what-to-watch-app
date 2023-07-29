@@ -1,0 +1,13 @@
+type Movie @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  year: Int
+  photo: AWSURL
+  description: String
+  director: String
+  cast: [String]
+  ranking: Float
+  trailer: AWSURL
+  comments: [String]
+}
+ 

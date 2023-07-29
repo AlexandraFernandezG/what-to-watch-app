@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-moviesinfoapp-staging-33518-authRole",
+      "UnauthRoleArn": "arn:aws:iam::522533887338:role/amplify-moviesinfoapp-staging-33518-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::522533887338:role/amplify-moviesinfoapp-staging-33518-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-moviesinfoapp-staging-33518-deployment",
+      "UnauthRoleName": "amplify-moviesinfoapp-staging-33518-unauthRole",
+      "StackName": "amplify-moviesinfoapp-staging-33518",
+      "StackId": "arn:aws:cloudformation:us-east-1:522533887338:stack/amplify-moviesinfoapp-staging-33518/c6500020-2cf7-11ee-8f39-1219eabe3891",
+      "AmplifyAppId": "d1atjqgqo0hose"
+    }
+  }
+}

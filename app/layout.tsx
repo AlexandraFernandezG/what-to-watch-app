@@ -1,6 +1,15 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { ThemeProvider } from "@aws-amplify/ui-react";
+import { Amplify } from 'aws-amplify';
+
+import awsconfig from '../src/aws-exports';
+
+import "@aws-amplify/ui-react/styles.css";
+import { studioTheme } from "../src/ui-components";
+
+Amplify.configure(awsconfig);
 
 const inter = Inter({ subsets: ['latin'] })
 
