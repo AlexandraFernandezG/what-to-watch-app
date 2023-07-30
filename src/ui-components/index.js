@@ -9,6 +9,7 @@ export { default as Logo } from "./Logo";
 export { default as LogoWithText } from "./LogoWithText";
 export { default as MovieCreateForm } from "./MovieCreateForm";
 export { default as MovieDetail } from "./MovieDetail";
+export { default as MovieDetailCollection } from "./MovieDetailCollection";
 export { default as MovieUpdateForm } from "./MovieUpdateForm";
 export { default as MyIcon } from "./MyIcon";
 export { default as studioTheme } from "./studioTheme";
